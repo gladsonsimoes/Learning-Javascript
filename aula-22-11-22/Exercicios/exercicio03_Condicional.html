@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 02</title>
+    <script>
+        var nome = prompt("Digite seu nome: ");
+        
+        var altura = prompt("Digite sua altura: ");
+        var altura = parseFloat(altura); //Em cm
+
+        var peso = prompt("Digite seu peso: "); 
+        var peso = parseInt(peso); //Em quilos
+
+        var centimentro = altura * 100;
+
+        var Altura = centimentro * centimentro;
+
+        var imc = peso / Altura ; //calculo do IMC
+        
+       
+        document.write("Olá " + nome + " seu IMC é: " + imc );
+
+        var imc1 = imc <= 18.5;
+        var imc2 = imc >= 18.5 && imc <= 24.9;
+        var imc3 = imc >= 25.0 && imc <= 29.9;
+        var imc4 = imc >= 30.0 && imc <= 24.9;
+        var imc5 = imc >= 35.0 && imc <= 39.9;
+        var imc6 = imc >= 40;
+
+        if (imc1){
+            document.write(" Abaixo do peso normal")
+        } else if (imc2){
+            document.write(" Peso normal")
+        } else if (imc3) {
+            document.write(" Excesso de peso")
+        } else if (imc4) {
+            document.write(" Obesidade classe I")
+        } else if (imc5) {
+            document.write(" Obesidade clasee II")
+        } else if (imc6) {
+            document.write(" Obesidade clasee III")
+        } else {
+            document.write(" Erro")
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
