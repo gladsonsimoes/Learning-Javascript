@@ -1,27 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio 03</title>
+    <title>Exercicio 02</title>
     <script>
         var nome = prompt("Digite seu nome: ");
         
-        var altura = prompt("Digite sua altura: ");
+        var altura = prompt("Digite sua altura (não use virgula):");
+        
         var altura = parseFloat(altura); //Em cm
+
         var peso = prompt("Digite seu peso: "); 
         var peso = parseInt(peso); //Em quilos
 
-        var centimentro = 0;
-        
-        centimentro = altura / 100;
+        var centimentro = altura / 100;
 
         var Altura = centimentro * centimentro;
 
-        var imc = peso / Altura ; //calculo do IMC
+        var calculo = peso / Altura ; //calculo do IMC
+
+        var imc = calculo.toFixed(2)
         
-        document.write("Olá " + nome + " seu IMC é: " + imc );
+       
+        document.write("<h1>" + " Olá " + nome + " seu IMC é: " + imc + "</h1>");
 
         var imc1 = imc <= 18.5;
         var imc2 = imc >= 18.5 && imc <= 24.9;
@@ -31,19 +34,19 @@
         var imc6 = imc >= 40;
 
         if (imc1){
-            document.write(" Abaixo do peso normal")
+            document.write("<h3> Abaixo do peso normal</h3>")
         } else if (imc2){
-            document.write(" Peso normal")
+            document.write(" <h3> Peso normal </h3>")
         } else if (imc3) {
-            document.write(" Excesso de peso")
+            document.write(" <h3> Excesso de peso </h3>")
         } else if (imc4) {
-            document.write(" Obesidade classe I")
+            document.write(" <h3> Obesidade classe I </h3>")
         } else if (imc5) {
-            document.write(" Obesidade clasee II")
+            document.write(" <h3> Obesidade clasee II</h3>")
         } else if (imc6) {
-            document.write(" Obesidade clasee III")
+            document.write(" <h3> Obesidade clasee III</h3>")
         } else {
-            document.write(" Erro")
+            document.write(" <h3> Erro")
         }
 
     </script>
