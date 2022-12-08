@@ -1,6 +1,10 @@
 https://angular.io/guide/setup-local
 
-ng serve -> entrar no servidor angular
+## entrar no servidor angular
+~~~
+ng serve
+~~~
+
 
 ferramenta web storm (pago)
 
