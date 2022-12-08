@@ -5,7 +5,6 @@ https://angular.io/guide/setup-local
 ng serve
 ~~~
 
-
 ferramenta web storm (pago)
 
 ng é do angular
