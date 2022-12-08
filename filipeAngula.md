@@ -1,5 +1,10 @@
 https://angular.io/guide/setup-local
 
+##comando de instalação
+~~~~
+npm install -g @angular/cli
+~~~~
+
 ## entrar no servidor angular
 ~~~
 ng serve
