@@ -1,5 +1,5 @@
-//imprimir no navegador , atraves do arquivo html
+//imprimir somente no navegador , atraves do arquivo html
 
-document.write("Hello World!")
+document.write("Hello World")
 
 //no compilador não imprime!
