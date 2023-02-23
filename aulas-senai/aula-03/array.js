@@ -7,12 +7,12 @@
          
         // " var listPessoa = Array() " e o " var listaPessoa = [] " é a mesma coisa
 
-        // var listaPessoa = [];
-        // listaPessoa[0] = "Ramon";
-        // listaPessoa[1] = "Gladson";
-        // listaPessoa[2] = "João";
+        var listaPessoa = [];
+        listaPessoa[0] = "Ramon";
+        listaPessoa[1] = "Gladson";
+        listaPessoa[2] = "João";
 
-        // console.log(listaPessoa);
+        console.log(listaPessoa);
 
         var listaAlunos = ["Lucas", "Francisco", "José" , "Renato"];
 
