@@ -9,7 +9,7 @@ essa variável de contador e incrementá-la de maneira implícita. */
 
 // Exemplo:
 var cont = [5,2,3];
-for(var i=0 ; i < 3 ; i++) {
+for(var i= 0 ; i < 3 ; i++) {
 cont[i]++;
 }
 

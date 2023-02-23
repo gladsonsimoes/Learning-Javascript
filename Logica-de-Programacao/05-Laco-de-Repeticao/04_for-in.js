@@ -4,9 +4,9 @@ de um objeto.
 Exemplo:
 */
 
-var doc = document;
+var doc = console;
 for(var prop in doc) {
-document.write(prop+"<br />");
+console.log(prop + "\n");
 }
 // Esse laço automaticamente itera pelas propriedades do objeto,
 // No caso ele listara todas as propriedades do objeto Document

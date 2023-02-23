@@ -7,7 +7,7 @@ var cont = [5,2];
 do{
 cont[0]+=1;
 cont[1]+=2;
-document.write(`cont0 = `+cont[0]+`cont1 = `+cont[1]);
+console.log(`cont0 = `+cont[0]+`cont1 = `+cont[1]);
 } while ((cont[0]+cont[1]) < 15)
 
 // Com o uso de do...while, no primeiro teste, cont[0]+cont[1]

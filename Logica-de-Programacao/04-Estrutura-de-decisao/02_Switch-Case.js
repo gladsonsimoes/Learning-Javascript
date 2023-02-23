@@ -5,18 +5,19 @@ opção dentre várias disponíveis. */
 
 //exemplo
 var marvin = "robot";
+
 switch (marvin) {
 case "human":
-document.write("hello carbon unit!");
+console.log("hello carbon unit!");
 break;
 case "alien":
-document.write("brrr I hate aliens!");
+console.log("brrr I hate aliens!");
 break;
 case "robot":
-document.write("emergency, to the rescue!");
+console.log("emergency, to the rescue!");
 break;
 default:
-document.write("what are you?");
+console.log("what are you?");
 break;
 }
 
