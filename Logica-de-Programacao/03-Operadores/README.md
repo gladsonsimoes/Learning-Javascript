@@ -13,6 +13,7 @@ As tabelas a seguir mostram todos esses operadores.
 | / | Divisão | x/y |
 | % | Módulo (resto da divisão inteira)| x%y |
 | - | Inversão de sinal | -x |
+| ** | Multiplicação de base com o expoente | x ** y |
 | ++ | Incremento | x++ ou ++x |
 | -- | Decremento | x-- ou --x |
 
